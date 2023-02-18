@@ -13,7 +13,7 @@ jobs:
     strategy:
       matrix:
         otp_version: ['24.2', '25.0']
-        elixir_version: ['1.14.3', '1.13.4']
+        elixir_version: ['1.14.3', '1.13.4', '1.12.3', '1.11.3']
         suite: ['', '--only huge']
     steps:
     - uses: actions/checkout@v3
